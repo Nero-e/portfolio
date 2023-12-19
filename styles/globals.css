@@ -15,6 +15,10 @@
   --colorC: #101121;
   --colorD: #182238;
   --colorE: #152833;
+  --colorF: #DBB42C;
+  --colorG: #dbb42c;
+  --colorH: #c9a227;
+  --colorI: #b69121;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -43,10 +47,10 @@
   background-position: 0 0;
   background-size: 100% 300%;
   background-image: linear-gradient(
-    var(--color5),
-    var(--color6),
-    var(--color7),
-    var(--color6)
+    var(--colorI),
+    var(--colorH),
+    var(--colorF),
+    var(--colorH)
   );
 }
 
@@ -108,4 +112,10 @@
 .elemento {
   background-color: #0F1020; /* elige el color que quieras */
   background-image: url('../public/Bg.svg'); /* elige la imagen SVG que quieras */
+}
+.elemento2 {
+background: rgba(243, 244, 250, 0.35);
+box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
 }

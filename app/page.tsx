@@ -2,6 +2,7 @@ import LandingHeader from "@/components/LandingHeader";
 import MainSection from "@/components/MainSection";
 import SecondSection from "@/components/SecondSection";
 import Image from "next/image";
+import Animation from "@/components/Animation";
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
         </div>
         <div className="snap-start">
           <SecondSection/>
+        </div>
+        <div>
+          {/* <Animation/> */}
         </div>
       </main>
     </>
